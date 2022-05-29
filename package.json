@@ -12,6 +12,15 @@
     "ES6",
     "Calculator"
   ],
-  "author": "Mohamed Mughal",
-  "license": "ISC"
+  "homepage": "https://github.com/Ibz786/calculator-es6#readme",
+  "bugs": {
+    "url" : "https://github.com/Ibz786/calculator-es6/issues",
+    "email" : "ibz.dev90@gmail.com"
+  },
+  "author": {
+    "name": "Ibrahim Mughal",
+    "email" : "b@rubble.com",
+    "url" : "http://barnyrubble.tumblr.com/"
+  },
+  "license": "MIT"
 }
