@@ -15,3 +15,7 @@ Features so far, include:
 - Clear All (All Clear)
 - Backspace to amend current operand
 - Toggling '+/-' on current operand
+
+## Demo
+
+Check out a demo of the Calculator here [https://codepen.io/ibz786/full/wvyyEKz](https://codepen.io/ibz786/full/wvyyEKz)
