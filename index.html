@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/styles.css" />
+    <title>Calculator ES6+</title>
+</head>
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <main>
+        <article>
+            <form class="calculator">
+
+                <div class="calculator-display">
+                    <p id="prevOperand"></p>
+                    <p id="currentOperand">0</p> 
+                </div>
+                <div class="calculator-btn-row">
+                    <button type="button" role="button" class="calculator-btn clear-all" data-calc-operation="Delete">AC</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-operation="±">+ / -</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-operation="Backspace">◀</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-operation="/">÷</button>
+                </div>
+                <div class="calculator-btn-row">
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="7">7</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="8">8</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="9">9</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-operation="*">×</button>
+                </div>
+                <div class="calculator-btn-row">
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="4">4</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="5">5</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="6">6</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-operation="-">–</button>
+                </div>
+                <div class="calculator-btn-row">
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="1">1</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="2">2</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-number="3">3</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-operation="+">+</button>
+                </div>
+                <div class="calculator-btn-row">
+                    <button type="button" role="button" class="calculator-btn big-btn" data-calc-number="0">0</button>
+                    <button type="button" role="button" class="calculator-btn" data-calc-number=".">.</button>
+                    <button type="button" role="button" class="calculator-btn equals" data-calc-operation="Enter">=</button>
+                </div>
+            </form>
+        </article>
+    </main>
+    <footer></footer>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
